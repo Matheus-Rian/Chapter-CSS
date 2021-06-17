@@ -22,10 +22,12 @@ body {
 body {
   font-size: 1.6rem;
 	font-family: 'Montserrat', sans-serif;
+	color: #F1F1F1;
 }
 
 button {
   cursor: pointer;
+  border: none;
 }
 
 a {
