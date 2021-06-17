@@ -15,6 +15,7 @@ body {
 }
 
 .header {
+	margin-top: 20px;;
 	width: 100%;
 
 	display: flex;
@@ -31,7 +32,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	font-weight: 700;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color: rgba(241, 241, 241, 0.7);
 }
 
@@ -43,4 +44,59 @@ body {
 	padding-bottom: 3px;
 	border-bottom: 6px solid #F1F1F1;
 	color: #F1F1F1;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+	height: 70%;
+	margin: 0 10px;
+}
+
+.informations {
+	margin-right: 10px;
+	height: 280px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.informations h1 {
+	font-size: 4.5rem;
+}
+
+.informations p {
+	font-size: 2rem;
+}
+
+.buttons button:first-child {
+	width: 111px;
+	height: 55px;
+	margin-right: 10px;
+	
+	background: #262626;
+	font-weight: 700;
+	color: #F1F1F1;
+	border-radius: 20px;
+	transition: background 0.2s;
+}
+
+.buttons button:first-child:hover {
+	background: #000000;
+}
+
+.buttons button:last-child {
+	width: 111px;
+	height: 55px;
+	
+	background: #B9A3E3;
+	font-weight: 700;
+	color: #000000;
+	border-radius: 20px;
+	transition: background 0.2s;
+}
+
+.buttons button:last-child:hover {
+	background: #c0afdf;
 }
